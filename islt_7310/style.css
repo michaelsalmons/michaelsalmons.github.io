@@ -10,6 +10,7 @@ body{
 
 footer{
     border-bottom: 6px solid #BBBBBB;
+    background-color: #F1FEC6;   
 }
 
 img {
@@ -18,20 +19,3 @@ img {
     margin: 4px;
     width: 230px;
 }
-
-/* the styles for the vertical navigation menu */
-#nav_menu_1 ul { 
-	list-style: none;
-	margin-left: 1.25em;
-	margin-bottom: 1.5em; }
-#nav_menu_1 ul li { 
-	width: 200px;
-	margin-bottom: .5em;
-	border: 2px solid blue; }
-#nav_menu_1 ul li a {
-	display: block;
-	font-weight: bold;
-	color: blue;
-	text-decoration: none;
-	padding: .5em 0 .5em 1.5em; }
-#nav_menu_1 ul li a.current { background-color: silver; }
