@@ -1,12 +1,14 @@
-/* the styles for the vertical navigation menu */
+/* the styles for the horizontal navigation menu */
 #nav_menu_1 ul li {
 display: inline-block; 
 border-bottom: #BBBBBB;
-width: 150px;
+height: 20px;
 list-style-type: none;
-padding: 15px 15px 15px 25px;
+padding: 4px 15px 15px 25px;
 margin-top: 0;  
 margin-left: 10px;
+    position:relative;
+    top: 5px;
 }
 #nav_menu_1 ul li a.current { font-weight: 800; }
 

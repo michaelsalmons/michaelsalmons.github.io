@@ -1,7 +1,8 @@
 h1 {
     color:#121212;
     border-bottom: 6px solid #BBBBBB;
-    background-color: #F1FEC6;    
+    background-color: #F1FEC6;  
+    font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 }
 
 body{
@@ -18,4 +19,8 @@ img {
     border: 1px solid #999999;
     margin: 4px;
     width: 230px;
+}
+
+* {
+font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 }
