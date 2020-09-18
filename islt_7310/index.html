@@ -7,11 +7,16 @@
     <link rel="stylesheet" type="text/css" href="nav.css" media="screen"/>
 </head>
 <body>
-     <nav id="nav_menu_1">
-        <ul>
-            <li><a href="index.html">Home</a></li>
+     <nav>
+        <ul class="dropdown">
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="projects.html">Projects</a></li>
+                <ul class="dropdown-content">
+                    <li><a href="#">Design</a></li>
+                    <li><a href="#">Coding</a></li>
+                    <li><a href="#">Training</a></li>
+                </ul>
             <li><a href="philosophy.html">Philosophy</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
