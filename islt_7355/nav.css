@@ -1,62 +1,56 @@
-/* Main Navigation */
-#nav {
-    position:relative;
-    width:620px;
-    margin:0 auto;
-    margin-top:50px;
-    padding:10px;
+ ul li {
+display: inline; /*here we are seeing another value inline that allows us to keep all menu items in line */
+border: none;
+text-decoration: underline;
+text-align: center;
+width: 60px;
+list-style-type: none;
+padding: 15px 5px 15px 5px;
+margin-top: 0;
+margin-left: 20px;
+color:#2f547d;
+font-family:arial, helvetica, 'sans serif';
+font-weight:700;
+} 
+
+ /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
- 
-ul#navigation {
-    margin:0px auto;
-    position:relative;
-    float:left;
-    border-left:1px solid #c4dbe7;
-    border-right:1px solid #c4dbe7;
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
- 
-ul#navigation li {
-    display:inline;
-    font-size:12px;
-    font-weight:bold;
-    margin:0;
-    padding:0;
-    float:left;
-    position:relative;
-    border-top:1px solid #c4dbe7;
-    border-bottom:2px solid #c4dbe7;
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
- 
-ul#navigation li a {
-    padding:10px 25px;
-    color:#616161;
-    text-shadow:1px 1px 0px #fff;
-    text-decoration:none;
-    display:inline-block;
-    border-right:1px solid #fff;
-    border-left:1px solid #C2C2C2;
-    border-top:1px solid #fff;
-    background: #f5f5f5;
- 
-    -webkit-transition:color 0.2s linear, background 0.2s linear;
-    -moz-transition:color 0.2s linear, background 0.2s linear;
-    -o-transition:color 0.2s linear, background 0.2s linear;
-    transition:color 0.2s linear, background 0.2s linear;
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
 }
- 
-ul#navigation li a:hover {
-    background:#f8f8f8;
-    color:#282828;
-}
- 
-ul#navigation li a.first {
-    border-left: 0 none;
-}
- 
-ul#navigation li a.last {
-    border-right: 0 none;
-}
- 
-ul#navigation li:hover > a {
-    background:#fff;
-}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;} 
