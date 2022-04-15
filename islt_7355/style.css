@@ -4,3 +4,51 @@ h1 {
 }
 
 
+blockquote {
+	background-color:#197278;
+	font-size: 1.2em;
+	font-weight: 900;
+	color:#EDDDD4;
+	padding: 8px;
+}
+
+img.portrait {
+	border: #bbbbbb solid 1px;
+	padding: 4px;
+	margin: 8px;
+	width: 120px;
+	float: left;
+}
+
+/* For the image grids */
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1 {
+
+    flex-basis: 16%;
+}
+
+.col-2 {
+
+    flex-basis: 32%;
+}
+
+.col-3 {
+    flex-basis: 48%;
+}
+
+.col-4 {
+    flex-basis: 64%;
+}
+
+.col-5 {
+    flex-basis: 80%;
+}
+
+.col-6 {
+    flex-basis: 96%;
+}
