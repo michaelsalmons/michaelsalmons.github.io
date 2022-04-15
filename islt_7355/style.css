@@ -52,3 +52,7 @@ img.portrait {
 .col-6 {
     flex-basis: 96%;
 }
+
+.flex-container div{
+	height: 25.3%;
+}
