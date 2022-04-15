@@ -21,56 +21,28 @@ Tested:  March 2022;  Passed on Firefox and Chrome browsers.
 		<h1>Michael Salmons</h1>
 	</header>
 	<!-- This section is for the navigation  -->
-
-	<nav>
-<div class="dropdown">
-  <a class="dropbtn" href="home.html">Home</button>
-  
-</div> 
  
-<div class="dropdown">
-  <a class="dropbtn" href="about.html">About</button>
-  
-</div> 
-<div class="dropdown">
-  <a class="dropbtn" href="project.html">Projects</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div> 
-<div class="dropdown">
-  <a class="dropbtn">Philosophy</button>
-
-</div> 
-<div class="dropdown">
-  <a class="dropbtn">Contact</button>
- 
-</div> 
-		<ul id="navigation">
-		<li>
-			<a href="index.html">Home</a>
-		</li>
-		<li>
-			<a href="about.html">About</a>
-		</li>
-		<li>
-			<a href="project.html">Projects</a>
-			<ul>
-				<li><a href="#">Link 1</li>
-				<li><a href="#">Link 2</li>
-				<li><a href="#">Link 3</li>
-			</ul>
-		</li>
-		<li>
-			<a href="#philosophy.html">Philosophy</a>
-		</li>
-		<li>
-			<a href="#contact.html">Contact</a>
-		</li>
-		</ul>		
-	</nav>
+<nav class="nav">
+  <ul class="nav__menu">
+    <li class="nav__menu-item"><a href="index.html">Home</a></li>
+    <li class="nav__menu-item"><a>About</a>
+      <!--<ul class="nav__submenu">
+        <li class="nav__submenu-item"> <a>Web Design</a></li>
+        <li class="nav__submenu-item"> <a>Web Development</a></li>
+        <li class="nav__submenu-item"> <a>Web Hosting</a></li>
+      </ul>-->
+    </li>
+    <li class="nav__menu-item"><a>Projects</a>
+      <ul class="nav__submenu">
+        <li class="nav__submenu-item"> <a>Link 1</a></li>
+        <li class="nav__submenu-item"> <a>Link 2</a></li>
+        <li class="nav__submenu-item"> <a>Link 3</a></li>
+      </ul>
+    </li>
+    <li class="nav__menu-item"><a>Philosophy</a></li>
+    <li class="nav__menu-item"><a>Contact</a></li>
+  </ul>
+</nav>
 	<!-- This is the main content section  -->
 	<main>
 		<h3>Projects</h3>
