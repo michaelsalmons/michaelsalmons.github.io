@@ -1,8 +1,15 @@
 h1 {
-  color:#2f547d;
-  font-family:arial, helvetica, 'sans serif';
+	color:#2f547d;
+	font-family:arial, helvetica, 'sans serif';
+	margin: -4px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  
 }
 
+
+p + p {
+  text-indent: 2em;
+}
 
 blockquote {
 	background-color:#197278;
@@ -10,6 +17,21 @@ blockquote {
 	font-weight: 900;
 	color:#EDDDD4;
 	padding: 8px;
+}
+
+.expstyle {
+		background-color:#EDDDD4;
+		padding: 8px;
+}
+
+.pullquote {
+	background-color: #197278;
+	color:#EDDDD4;
+	display:block; 
+	float:right; 
+	padding:0px; 
+	margin:0px; 
+	overflow:hidden;
 }
 
 img.portrait {
