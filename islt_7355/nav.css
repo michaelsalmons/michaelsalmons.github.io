@@ -28,11 +28,39 @@ nav ul {
   text-align: center;
 } */
 
+#pageheader {
+	float: left;
+	margin: 0px 0px 8px 0px;
+	Width: 100%;
+	padding:0px 0px 0px 0px;
+	line-height: 1;
+	text-align:top;
+	}
+	
+	
+header {
+	float:left;
+	width:30%;
+
+	margin-top: -12px;
+}
+
+nav {
+	float:right;
+	width: 73%;
+	
+}
+
+main {
+	clear: right;
+}
+
 .nav {
   width: 600px;
   margin: 0 auto;
   background: #ffffff;
   color: #000000;
+  
 }
 .nav a {
   display: block;
