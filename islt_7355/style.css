@@ -20,6 +20,7 @@ blockquote {
 }
 
 .expstyle {
+	float:left;
 		background-color:#EDDDD4;
 		padding: 8px;
 }
@@ -32,6 +33,7 @@ blockquote {
 	padding:0px; 
 	margin:0px; 
 	overflow:hidden;
+	float: left;
 }
 
 img.portrait {
