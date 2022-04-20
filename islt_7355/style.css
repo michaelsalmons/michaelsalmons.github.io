@@ -42,6 +42,32 @@ img.portrait {
 	float: left;
 }
 
+.potraitpara {
+	float:left;
+	margin-left: 124px;
+}
+
+.normalpara {
+	float:left;
+	
+}
+
+.lastpara {
+	float:left;
+	margin-bottom: 12px;
+	
+}
+
+.footerstyle {
+clear:both;
+	margin-top:8px;
+	border-top:1px #cccccc solid;
+}
+
+.aboutblock {
+	float:left;
+}
+	
 /* For the image grids */
 
 .flex-container{
