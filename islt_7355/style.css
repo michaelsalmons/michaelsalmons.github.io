@@ -129,3 +129,77 @@ clear:both;
 .flex-container div{
 	height: 25.3%;
 }
+
+
+/* setting up the soc flexbox */
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* We tell all items to be 100% width, via flex-basis */
+.wrapper > * {
+  flex: 1 100%;
+}
+
+#soc ul {
+		list-style:none;
+}
+
+/* source order for mobile-first approach
+ * in this case:
+ * 1. header
+ * 2. article
+ * 3. aside 1
+ * 4. aside 2
+ * 5. footer
+ */
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .aside { flex: 1 auto; }
+  #soc ul {
+	display:inline-flex;
+}
+	
+}
+
+/* Large screens */
+@media all and (min-width: 800px) {
+  /* We invert order of first sidebar and main
+   * And tell the main element to take twice as much width as the other two sidebars 
+   */
+  .main { flex: 2 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+  
+  
+#soc ul{
+
+	display:flex;
+}
+
+}
+
+.container {
+  display: flex; /* or inline-flex */
+   flex-direction: row | row-reverse | column | column-reverse;
+   
+}
+
+/* contact page flexstyle */
+/* most horiz space will be for main */
+.contact-main {
+  flex-grow: 4; /* default 0 */
+}
+/* social media flex will be narrow */
+.contact-socmed {
+	flex-grow: 1;
+}
+
+
+
+

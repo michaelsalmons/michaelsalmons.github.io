@@ -12,8 +12,8 @@ Tested:  4-17-22;  Passed on Firefox and Chrome browsers.
 	-->
     <meta charset="utf-8">
     <title>Michael Salmons- Contact</title>
-	<link rel="stylesheet" type="text/css" href="style.css?v=2" media="screen" />
-	<link rel="stylesheet" type="text/css" href="nav.css?v=2" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css?v=4" media="screen" />
+	<link rel="stylesheet" type="text/css" href="ham-menu.css" />
  </head>
  <body>
  <div id="pageheader">
@@ -22,33 +22,52 @@ Tested:  4-17-22;  Passed on Firefox and Chrome browsers.
 	</header>
 	<!-- This section is for the navigation  -->
 
-	<nav class="nav">
-  <ul class="nav__menu">
-    <li class="nav__menu-item"><a href="index.html">Home</a></li>
-    <li class="nav__menu-item"><a href="about.html">About</a>
-      <!--<ul class="nav__submenu">
-        <li class="nav__submenu-item"> <a>Web Design</a></li>
-        <li class="nav__submenu-item"> <a>Web Development</a></li>
-        <li class="nav__submenu-item"> <a>Web Hosting</a></li>
-      </ul>-->
-    </li>
-    <li class="nav__menu-item"><a href="project.html">Projects</a>
-      <ul class="nav__submenu">
-        <li class="nav__submenu-item"> <a href="https://youtu.be/pT1URTT_uUg">Learning HTML</a></li>
-        <li class="nav__submenu-item"> <a href="https://youtu.be/QjlMkCSQ10s">Tour of MU Campus</a></li>
-        <li class="nav__submenu-item"> <a href="https://youtu.be/BJMoO37e6H8">HTML-CSS training</a></li>
-      </ul>
-    </li>
-    <li class="nav__menu-item"><a href="philosophy.html">Philosophy</a></li>
-    <li class="nav__menu-item"><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
+	 <!-- (A) MENU WRAPPER -->
+    <nav id="hamnav">
+      <!-- (B) THE HAMBURGER -->
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger"/>
+
+      <!-- (C) MENU ITEMS -->
+      <div id="hamitems">
+	   
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="project.html">Projects</a>
+		 
+        <a href="philosophy.html">Philosophy</a>
+		<a href="contact.html">Contact</a>
+        
+      </div>
+    </nav>
+
 </div>
 	<!-- This is the main content section  -->
-	<main class="flex">
-		<h3>contact</h3>
-	 <p>coming soon</p>
-
+	<main class = "wrapper">
+		<h3>Contact Me!</h3>
+	
+	 <!-- soc has media query-set alignment -->
+        <div id ="soc">
+		<ul>
+	        <li><a href="http://discordapp.com/users/beardsley64"><img src="images/dsc.png" alt="Discord">
+	        </a></li>
+       
+         <li>
+	       <a href="https://www.linkedin.com/in/michaelsalmons/" target="_blank"><img src= "images/linkedin.png" alt="LinkedIn">
+	       </a>
+        
+        
+         <li>
+	       <a href="https://twitter.com/michael67831336" target="_blank"><img src="images/tw.png" alt="Twitter">
+	      </a></li>
+     
+        
+         <li>
+	       <a href="https://www.instagram.com/michaelsalmons/" target="_blank"><img src="images/inst.png" alt="Instagram">
+	        </a></li>
+        </ul>
+		</div>
+<script type="text/javascript" src="https://form.jotform.com/jsform/221135827710147"></script>
 	</main>
 	<footer class="footerstyle">Copyright &copy; 2022 Michael Salmons <a href="mailto:salmonsm@umsystem.edu">salmonsm@umsystem.edu</a></footer>
   </body>
