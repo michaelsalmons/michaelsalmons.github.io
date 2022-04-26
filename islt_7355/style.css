@@ -92,6 +92,10 @@ clear:both;
 .aboutblock {
 	float:left;
 }
+
+.currentpage {
+	color: #197278 !important;
+}
 	
 /* For the image grids */
 
