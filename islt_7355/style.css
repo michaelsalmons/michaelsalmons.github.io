@@ -1,9 +1,27 @@
+
+html, body {
+	
+  padding: 0;
+  margin: 0;
+
+}
 main{
 	padding: 10px;
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+footer{
+	
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+main{
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Rubik', 'Open Sans', sans-serif !important;
   text-transform: uppercase;
   font-weight:800; 
   font-size: 18px;

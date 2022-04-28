@@ -7,7 +7,7 @@
 	
 	
 /* (B) HORIZONTAL MENU ITEMS */
-#hamitems { display: flex; font-family: "Open Sans", sans-serif;
+#hamitems { display: flex; font-family: 'Rubik', 'Open Sans', sans-serif !important;
 text-transform: uppercase; font-weight: 700; }
 #hamitems a {
   flex-grow: 1;
@@ -53,10 +53,5 @@ text-transform: uppercase; font-weight: 700; }
   #hamnav input:checked ~ #hamitems { display: block; } h1 {display: block;}
 }
 
-/* [DOES NOT MATTER] */
-html, body {
-  padding: 0;
-  margin: 0;
-  font-family: arial, sans-serif;
-}
+
 
