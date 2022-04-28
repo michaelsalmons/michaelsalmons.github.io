@@ -1,10 +1,17 @@
 
+
 html, body {
 	
   padding: 0;
   margin: 0;
 
 }
+
+p {
+	color: #000;
+}
+
+
 main{
 	padding: 10px;
 	font-family: 'Open Sans', sans-serif !important;
@@ -60,17 +67,59 @@ blockquote {
 		padding: 8px;
 }
 
-.pullquote {
-	background-color: #197278;
-	color:#EDDDD4;
-	display:block; 
-	float:right; 
-	padding:0px; 
-	margin:0px; 
-	overflow:hidden;
-	float: left;
-	width: 100%;
+/* pullquote style */
 
+#pullquote {
+	background-color: #197278 !important;
+	color:#EDDDD4 !important;
+	display:block !important;
+	float:right !important;
+	padding:0px !important; 
+	margin:0px !important; 
+	overflow:hidden !important;
+	width: 100% !important;
+
+}
+
+#longquote {
+	background-color: #197278 !important;
+	color:#EDDDD4 !important;
+	display:block !important;
+	float:right !important;
+	padding:0px !important; 
+	margin:0px !important; 
+	overflow:hidden !important;
+	width: 100% !important;
+
+	}
+
+.leftquo{
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; 
+	font-size:44px; 
+	height: 12px; 
+	padding:12px; 
+	width: 16px; 
+	float:left;
+	}
+		
+		
+.rightquo{
+	font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; 
+	font-size:44px; 
+	height:12px; 
+	margin-top:12px; 
+	margin-right:8px; 
+	padding:12px; 
+	width: 16px; 
+	float:right;
+	}
+
+.quotetext {
+	margin:12px 12px 12px 18px; 
+	padding:12px;
+	font-family: 'Open Sans', sans-serif; 
+	font-size:28px;  
+	float:left;
 }
 
 img.portrait {
@@ -81,10 +130,8 @@ img.portrait {
 	float: left;
 }
 
-.potraitpara {
+.normallist {
 	float:left;
-	margin-left: 124px;
-	
 }
 
 .normalpara {
@@ -183,7 +230,18 @@ clear:both;
   .aside { flex: 1 auto; }
   #soc ul {
 	display:inline-flex;
-}
+	}
+	#pullquote {
+	background-color: #197278 !important;
+	color:#EDDDD4 !important;
+	display:block !important;
+	float:right !important;
+	padding:0px !important; 
+	margin:0px !important; 
+	overflow:hidden !important;
+	width: 100% !important;
+
+	}
 	
 }
 
@@ -204,11 +262,23 @@ clear:both;
 	display:flex;
 }
 
+aside#pullquote {
+	background-color: #197278 !important;
+	color:#EDDDD4 !important;
+	display:block !important;
+	float:right !important;
+	padding:0px !important; 
+	margin:0px !important; 
+	overflow:hidden !important;
+	width: 25% !important;
+
+}
+
 }
 
 .container {
   display: flex; /* or inline-flex */
-   flex-direction: row | row-reverse | column | column-reverse;
+   flex-direction: row;
    
 }
 
@@ -221,6 +291,7 @@ clear:both;
 .contact-socmed {
 	flex-grow: 1;
 }
+
 
 
 

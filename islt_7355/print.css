@@ -1,0 +1,72 @@
+@media print {
+	*{
+		background: transparent !important;
+		color: #000 !important;
+		box-shadow: none !important;
+		
+	}
+	/* elements I don’t want to show */
+	footer,
+	.main-nav,
+	aside,
+	.sidebar {
+		Display: none !important;
+	}
+
+h1 {
+	font-size: 14pt;
+	font-family: 'Times New Roman' , 'Georgia' , 'serif';
+}
+
+p {
+	font-size: 10px;
+	font-family: 'Times New Roman' , 'Georgia' , 'serif';
+}
+
+ul {
+	list-style: none;
+	font-size: 10pt;
+	font-family: 'Times New Roman' , 'Georgia' , 'serif';
+}
+
+blockquote {
+	font-size: 12pt;
+}
+	
+/* Print friendly links- display full url of the link next to links text */
+	a[href]:after {
+    content: " (" attr(href) ")";
+  }
+/* places href value as text to the right of the link- remove the relative links- not of any use */
+	a[href="http"]:after {
+		content: " (" attr(href)")";
+		display: none !important;
+	}
+	
+/* values defined here apply to physical display */
+	@page {	
+	margin: .5cm !important;
+	}
+
+/* first page only has 2 cm top margin */
+	@page :first {
+	margin-top: 2cm !important;
+}
+
+/*force page to break before these things */
+
+	h2, ul  {
+	page-break-after: avoid;
+	}
+	
+/* not more than three lines get orphaned or widowed, also reduce font size for print- use physical units  */
+	p, ul {
+		orphans: 3;
+		widows: 3;
+		font-size: 11pt !important;
+	}
+/* remove images */
+	img {
+		display: none !important;
+	}
+}
