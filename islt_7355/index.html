@@ -12,12 +12,13 @@ Tested:  March 2022;  Passed on Firefox and Chrome browsers.
 	-->
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>Michael Salmons- Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css?v=6.1" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style.css?v=6.9" media="screen" />
 	<link rel="stylesheet" type="text/css" href="ham-menu.css?v=1.1" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
  </head>
  <body>
  <div id="pageheader">
@@ -48,12 +49,15 @@ Tested:  March 2022;  Passed on Firefox and Chrome browsers.
 </div>
 	<!-- This is the main content section  -->
 	<main>
-		<div class="pullquote">
-		<div style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; font-size:44px; height: 12px; padding:12px; width: 16px; float:left;">&ldquo;</div>
-		<div style="margin:12px 12px 12px 18px; padding:12px;font-family: 'Franklin Gothic', Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'; font-size:28px;  float:left;">I am passionate about <em>helping people</em> learn to do the things that will help them be <em>their best</em>. </div>
-		<div style="font-family:Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; font-size:44px; height: 12px; margin-top:12px; margin-right:8px; padding:12px; width: 16px; float:right;">&rdquo;</div> 
-		</div>
+		 <aside id="longquote">
+		<div class="leftquo">&ldquo;</div>
 		
+		<div class="quotetext">I am passionate about <em>helping people</em> learn to do the things that will help them be <em>their best</em>. </div>
+		
+		<div class="rightquo">&rdquo;</div> 
+	</aside>
+	
+	
 		<div class="normalpara">
 		<h3>Hello!</h3>
 		<p>My name is Michael Salmons. I have a background in Educational Technology and technical training. I am a graduate student studying Learning Technologies at the University of Missouri with an emphasis on Instructional Technologies. My expected graduation date is Summer of 2022.</p>
@@ -76,6 +80,6 @@ Tested:  March 2022;  Passed on Firefox and Chrome browsers.
 		</div>
 		
 	</main>
-	<footer class="footerstyle">Copyright &copy; 2022 Michael Salmons <a href="mailto:salmonsm@umsystem.edu">salmonsm@umsystem.edu</a></footer>
+	<footer class="footerstyle"><div id="footcontain"><span>Copyright &copy; 2022 Michael Salmons</span> <a href="mailto:salmonsm@umsystem.edu"><img src="images/mail-sm.png" /></a> <span><a href="mailto:salmonsm@umsystem.edu">salmonsm@umsystem.edu</a></span><img src="images/phone.png" /><span>(573) 200-6811</span></div></footer>
   </body>
 </html>

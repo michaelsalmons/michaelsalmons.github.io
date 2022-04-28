@@ -150,7 +150,26 @@ img.portrait {
 .footerstyle {
 clear:both;
 	margin-top:8px;
+	width: 100%;
 	border-top:1px #cccccc solid;
+}
+
+footer {
+	background-image: URL("images/fade.png");
+	background-repeat: repeat-x;
+}
+.footerstyle img{
+	vertical-align: middle;
+	width: 45px;
+}
+.footerstyle span{
+	vertical-align: middle;
+	font-size:.9em;
+	font-weight: 700;
+}
+/* moving footer padding over to this div to give the content space but allow the background image to be seamless */
+
+#footcontain {
 	padding: 10px;
 }
 
