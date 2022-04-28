@@ -48,9 +48,15 @@ h3 {
   
 }
 
-
+/* indent paragraphs */
 p + p {
   text-indent: 2em;
+}
+
+/* caption styles */
+.cap {
+	font-size: .9em;
+	font-weight: 600;
 }
 
 blockquote {
@@ -143,9 +149,17 @@ img.portrait {
 .lastpara {
 	float:left;
 	margin-bottom: 12px;
-	
+	clear: both;
 	
 }
+
+	.video-responsive {
+	float:left;
+	margin-bottom: 12px;
+	clear: both;
+	
+}
+
 
 .footerstyle {
 clear:both;
@@ -161,7 +175,13 @@ footer {
 .footerstyle img{
 	vertical-align: middle;
 	width: 45px;
+    transition: all 3s;
 }
+
+.footerstyle img:hover {
+	transform: scale(2);
+}
+  
 .footerstyle span{
 	vertical-align: middle;
 	font-size:.9em;
@@ -262,6 +282,11 @@ footer {
 
 	}
 	
+	.video-responsive iframe {
+	width: 560px;
+	height: 315px;
+}	
+
 }
 
 /* Large screens */
@@ -292,6 +317,12 @@ aside#pullquote {
 	width: 25% !important;
 
 }
+
+.video-responsive iframe {
+	width: 1120px;
+	height: 630px;
+}	
+
 
 }
 
