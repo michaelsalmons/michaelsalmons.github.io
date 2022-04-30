@@ -142,6 +142,7 @@ img.portrait {
 
 .normalpara {
 	float:left;
+	clear:both;
 
 	
 }
