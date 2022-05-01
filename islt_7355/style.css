@@ -288,6 +288,11 @@ footer {
 	height: 315px;
 }	
 
+.col-2{
+	flex-basis: 32%;
+	margin: 4px;
+}
+
 }
 
 /* Large screens */
