@@ -217,6 +217,8 @@ footer {
 .col-2 {
 
     flex-basis: 32%;
+	margin: 0;
+	border: none;
 }
 
 .col-3 {
@@ -291,12 +293,22 @@ footer {
 .col-2{
 	flex-basis: 32%;
 	margin: 4px;
+	border-right: 1px #bbb solid;
+	border-bottom: 1px #bbb solid;
+	text-align:center;
+	
+	
+}
+
+.col-2 img {
+	padding: 4px;
+	
 }
 
 }
 
 /* Large screens */
-@media all and (min-width: 800px) {
+@media all and (min-width: 937px) {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars 
    */
@@ -329,6 +341,12 @@ aside#pullquote {
 	height: 630px;
 }	
 
+.col-2 {
+
+    flex-basis: 32%;
+	margin: 0;
+	border: none;
+}
 
 }
 
