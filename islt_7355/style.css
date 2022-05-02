@@ -59,6 +59,17 @@ p + p {
 	font-weight: 600;
 }
 
+/* header logo */
+#anime {
+	vertical-align: center;
+	float:left;
+}
+
+#anime img {
+	height: 40px;
+}
+
+
 blockquote {
 	background-color:#197278;
 	font-size: 1.2em;
@@ -293,8 +304,16 @@ footer {
 .col-2{
 	flex-basis: 32%;
 	margin: 4px;
-	border-right: 1px #bbb solid;
-	border-bottom: 1px #bbb solid;
+	/* border-right: 1px #bbb solid; */
+	/* border-bottom: 1px #bbb solid; */
+	border-width: 1px;
+    border-style: solid;
+    border-image: 
+     linear-gradient(
+       to left top, 
+       gray, 
+       rgba(0, 0, 0, 0)
+     ) 0 1 0 80%;
 	text-align:center;
 	
 	
