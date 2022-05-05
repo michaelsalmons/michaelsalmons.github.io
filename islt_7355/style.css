@@ -100,7 +100,7 @@ th {
  
  .nth-table tr.datarows:nth-child(odd){
  
-        background: #AFF0F4;
+        background: #ADC6C8;
     }
  
 .nth-table th{
@@ -362,6 +362,12 @@ footer {
 	
 }
 
+/* remove cert info from table at smaller sizes */
+
+th,td  {
+	font-size:.8em;
+
+}
 }
 
 /* Large screens */
@@ -397,6 +403,12 @@ aside#pullquote {
 	width: 1120px;
 	height: 630px;
 }	
+
+
+th,td  {
+	font-size:1em;
+
+}
 
 .col-2 {
 
