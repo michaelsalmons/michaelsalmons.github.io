@@ -84,6 +84,40 @@ blockquote {
 		padding: 8px;
 }
 
+/* table style stub */
+/* :nth-child(n)
+    :nth-last-child(n)
+    :nth-of-type(n)
+    :nth-last-of-type(n) */
+th,td {
+	border-bottom: 1px solid #222222;
+}
+th {
+	text-align:left;
+}
+.nth-table {
+    border-collapse: collapse;
+    border: 1px solid #824100;
+  }
+ 
+ .nth-table tr:nth-child(odd){
+ 
+        background: #9DCECE;
+    }
+ 
+.nth-table th{
+    border: 1px dotted #FFA346;
+    color: #3E5260;
+    padding:12px;
+ }
+ 
+.nth-table td{
+    border: 1px dashed #000;
+    color: #002F5E;
+    padding:12px;
+    width:90px;
+ }
+
 /* pullquote style */
 
 #pullquote {
@@ -157,6 +191,12 @@ img.portrait {
 
 	
 }
+
+/* float table to left */
+#comps {
+	float: left;
+	clear:both; */ important- this allows table to move down to left */
+	}
 
 .lastpara {
 	float:left;
