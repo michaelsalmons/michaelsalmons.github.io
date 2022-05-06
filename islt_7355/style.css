@@ -265,6 +265,10 @@ float:left;
 	border-top:1px #cccccc solid;
 	background-image: URL("images/fade.png");
 	background-repeat: repeat-x;
+	background-size:cover;
+    background-position:center;
+	
+
 }
 
 
@@ -380,6 +384,12 @@ float:left;
 		list-style:none;
 }
 
+.footerstyle {
+    background-image: URL("images/fade.png");
+	background-repeat: repeat-x;
+	height: 100%;
+}
+
 /* source order for mobile-first approach
  * in this case:
  * 1. header
@@ -442,12 +452,7 @@ th,td  {
 	font-size:.8em;
 
 }
-
-#tel{
-
-	background-image: URL("images/fade.png");
-	background-repeat: repeat-x;
-}
+ 
 
 }
 
@@ -524,11 +529,19 @@ th,td  {
 
 }
  
-
 .footerstyle {
-    background-image: URL("images/fade.png");
+
+	margin-top:8px;
+	width: 100%;
+	border-top:1px #cccccc solid;
+	background-image: URL("images/fade.png");
 	background-repeat: repeat-x;
+	background-size:contain; 
+    background-position:center;
+	
+
 }
+
 
 
 }
@@ -563,8 +576,7 @@ th,td  {
 	font-weight: 600;
 	clear:both;
 	width: 100%;
-	background-image: URL("images/fade.png");
-	background-repeat: repeat-x;
+	 
 }
 
 
