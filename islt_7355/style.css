@@ -162,7 +162,7 @@ input[type=submit] {
   padding: 20px;
 }
 
-* pullquote style */
+/* pullquote style */
 
 #pullquote {
 	background-color: #197278 !important;
@@ -239,7 +239,7 @@ img.portrait {
 /* float table to left */
 #comps {
 	float: left;
-	clear:both; */ important- this allows table to move down to left */
+	clear:both; /* important- this allows table to move down to left */
 	}
 
 .lastpara {
@@ -259,15 +259,15 @@ img.portrait {
 
 .footerstyle {
 clear:both;
+float:left;
 	margin-top:8px;
 	width: 100%;
 	border-top:1px #cccccc solid;
-}
-
-footer {
 	background-image: URL("images/fade.png");
 	background-repeat: repeat-x;
 }
+
+
 .footerstyle img{
 	vertical-align: middle;
 	width: 45px;
@@ -275,19 +275,20 @@ footer {
 }
 
 .footerstyle img:hover {
-	transform: scale(2);
+	transform: scale(1.5);
 }
   
 .footerstyle span{
-	vertical-align: middle;
-	font-size:.9em;
-	font-weight: 700;
+	
 }
 /* moving footer padding over to this div to give the content space but allow the background image to be seamless */
 
 #footcontain {
 	padding: 10px;
+	 
 }
+
+
 
 .aboutblock {
 	float:left;
@@ -334,6 +335,33 @@ footer {
 
 .flex-container div{
 	height: 25.3%;
+}
+/* default footer item props */
+#copy {
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	float:left;
+	width: 32%;
+	 
+}
+
+#email{
+	float:left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	width: 32%;
+	 
+}
+
+#tel{
+	float: left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	width: 32%;
+ 
 }
 
 
@@ -408,12 +436,19 @@ footer {
 	
 }
 
-/* remove cert info from table at smaller sizes */
+/* reduce table font at smaller sizes */
 
 th,td  {
 	font-size:.8em;
 
 }
+
+#tel{
+
+	background-image: URL("images/fade.png");
+	background-repeat: repeat-x;
+}
+
 }
 
 /* Large screens */
@@ -461,6 +496,84 @@ th,td  {
     flex-basis: 32%;
 	margin: 0;
 	border: none;
+}
+
+#copy {
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	float:left;
+	height: 32px;
+	padding-top:16px;
+
+}
+
+#email{
+	float:left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	
+}
+
+#tel{
+	float: left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+
+}
+ 
+
+.footerstyle {
+    background-image: URL("images/fade.png");
+	background-repeat: repeat-x;
+}
+
+
+}
+ 
+/*adding responsiveness to the footer */
+
+@media all and (max-width: 818px) {
+#copy {
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	float:left;
+	height: 32px;
+	padding-top:16px;
+	clear:both;
+	width: 100%;
+}
+
+#email{
+	float:left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	clear:both;
+	width: 100%;
+}
+
+#tel{
+	float: left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	clear:both;
+	width: 100%;
+	background-image: URL("images/fade.png");
+	background-repeat: repeat-x;
+}
+
+
+
+/* reduce table font at smaller sizes */
+
+th,td  {
+	font-size:.8em;
+
 }
 
 }
