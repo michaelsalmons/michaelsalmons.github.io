@@ -243,10 +243,16 @@ img.portrait {
 	clear:both;
 }
 
-.normalpara a, .lastpara a {
-	font-size: .9 em;
+.normalpara a{
+	 
 	font-weight: 600;
 }
+
+.lastpara a{
+	 
+	font-weight: 600;
+}
+	
 	
 /* float table to left */
 #comps {
@@ -379,12 +385,13 @@ float:left;
 	width: 32%;
  
 }
-
-
+ 
 /* setting up the soc flexbox */
 .wrapper {
   display: flex;
-  flex-flow: row wrap;
+  /* flex-flow: row; */
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* We tell all items to be 100% width, via flex-basis */
@@ -478,7 +485,18 @@ th,td  {
   .main    { order: 2; }
   .aside-2 { order: 3; }
   .footer  { order: 4; }
-  
+
+ #soc ul{
+
+	display:flex;
+}
+
+	#soc {flex-wrap:wrap;}
+	#soc > li {
+		flex:1 0 100%;
+		justify-content:center;
+	}
+}  
   
 #soc ul{
 
