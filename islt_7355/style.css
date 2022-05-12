@@ -351,7 +351,7 @@ float:left;
 }
 /* default footer item props */
 #copy {
-	vertical-align: middle;
+	padding-top: 14px;
 	font-size:.8em;
 	font-weight: 600;
 	float:left;
@@ -513,7 +513,7 @@ th,td  {
 }
 
 #copy {
-	vertical-align: middle;
+    padding-top: 14px;
 	font-size:.8em;
 	font-weight: 600;
 	float:left;
@@ -559,12 +559,12 @@ th,td  {
 
 @media all and (max-width: 818px) {
 #copy {
-	vertical-align: middle;
+	
 	font-size:.8em;
 	font-weight: 600;
 	float:left;
 	height: 32px;
-	padding-top:16px;
+	padding-top:14px;
 	clear:both;
 	width: 100%;
 }
