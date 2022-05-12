@@ -241,10 +241,13 @@ img.portrait {
 .normalpara {
 	float:left;
 	clear:both;
-
-	
 }
 
+.normalpara a, .lastpara a {
+	font-size: .9 em;
+	font-weight: 600;
+}
+	
 /* float table to left */
 #comps {
 	float: left;
