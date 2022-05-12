@@ -14,6 +14,7 @@ p {
 /* style for counter */
 #result {
 	width:120px;
+	height:102px;
 	float: right;
 	border: #1d9085 4px solid;
 	background-color: #197278;
