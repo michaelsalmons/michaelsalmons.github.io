@@ -475,29 +475,11 @@ th,td  {
 
 }
 
-/* Large screens */
-@media all and (min-width: 937px) {
-  /* We invert order of first sidebar and main
-   * And tell the main element to take twice as much width as the other two sidebars 
-   */
-  .main { flex: 2 0px; }
-  .aside-1 { order: 1; }
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
 
- #soc ul{
+/*adding responsiveness to the footer */
 
-	display:flex;
-}
-
-	#soc {flex-wrap:wrap;}
-	#soc > li {
-		flex:1 0 100%;
-		justify-content:center;
-	}
-	
-	#copy {
+@media all and (max-width: 818px) {
+#copy {
 	
 	font-size:.8em;
 	font-weight: 600;
@@ -524,6 +506,57 @@ th,td  {
 	font-weight: 600;
 	clear:both;
 	width: 100%;
+	 
+}
+
+
+
+/* reduce table font at smaller sizes */
+
+th,td  {
+	font-size:.8em;
+
+}
+
+}
+
+/* Large screens */
+@media all and (min-width: 937px) {
+  /* We invert order of first sidebar and main
+   * And tell the main element to take twice as much width as the other two sidebars 
+   */
+  .main { flex: 2 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+
+
+	
+#copy {
+	
+	font-size:.8em;
+	font-weight: 600;
+	float:left;
+	height: 32px;
+	padding-top:14px;
+	width: 32%;
+}
+
+#email{
+	float:left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	width: 32%;
+}
+
+#tel{
+	float: left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	width: 32%;
 	 
 }
 }  
@@ -570,6 +603,8 @@ th,td  {
 	float:left;
 	height: 32px;
 	padding-top:16px;
+	
+	width: 32%;
 
 }
 
@@ -579,6 +614,7 @@ th,td  {
 	font-size:.8em;
 	font-weight: 600;
 	
+	width: 32%;
 }
 
 #tel{
@@ -587,6 +623,7 @@ th,td  {
 	font-size:.8em;
 	font-weight: 600;
 
+width: 32%;
 }
  
 .footerstyle {
@@ -604,51 +641,9 @@ th,td  {
 
 
 
-}
  
-/*adding responsiveness to the footer */
+ 
 
-@media all and (max-width: 818px) {
-#copy {
-	
-	font-size:.8em;
-	font-weight: 600;
-	float:left;
-	height: 32px;
-	padding-top:14px;
-	clear:both;
-	width: 100%;
-}
-
-#email{
-	float:left;
-	vertical-align: middle;
-	font-size:.8em;
-	font-weight: 600;
-	clear:both;
-	width: 100%;
-}
-
-#tel{
-	float: left;
-	vertical-align: middle;
-	font-size:.8em;
-	font-weight: 600;
-	clear:both;
-	width: 100%;
-	 
-}
-
-
-
-/* reduce table font at smaller sizes */
-
-th,td  {
-	font-size:.8em;
-
-}
-
-}
 
 .container {
   display: flex; /* or inline-flex */
