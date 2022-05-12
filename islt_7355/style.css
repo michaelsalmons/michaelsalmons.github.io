@@ -496,6 +496,36 @@ th,td  {
 		flex:1 0 100%;
 		justify-content:center;
 	}
+	
+	#copy {
+	
+	font-size:.8em;
+	font-weight: 600;
+	float:left;
+	height: 32px;
+	padding-top:14px;
+	clear:both;
+	width: 100%;
+}
+
+#email{
+	float:left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	clear:both;
+	width: 100%;
+}
+
+#tel{
+	float: left;
+	vertical-align: middle;
+	font-size:.8em;
+	font-weight: 600;
+	clear:both;
+	width: 100%;
+	 
+}
 }  
   
 #soc ul{
