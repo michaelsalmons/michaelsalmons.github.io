@@ -11,7 +11,15 @@ p {
 	color: #000;
 }
 
-
+/* style for counter */
+#result {
+	width:120px;
+	float: right;
+	border: #1d9085 4px solid;
+	background-color: #197278;
+	color: #fff;
+}
+	
 main{
 	padding: 10px;
 	font-family: 'Open Sans', sans-serif !important;
